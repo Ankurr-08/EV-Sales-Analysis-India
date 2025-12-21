@@ -75,6 +75,4 @@ These insights can help policymakers, manufacturers, and infrastructure planners
 - Perform city-level EV adoption analysis
 - Build interactive dashboards using Power BI or Tableau
 
----
 
-## 📂 Project Structure
