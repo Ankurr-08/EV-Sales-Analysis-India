@@ -1,23 +1,37 @@
-# 🚗 Electric Vehicle (EV) Sales Analysis in India
+# ⚡ Electric Vehicle (EV) Sales Analysis in India | Data Analytics Project
+
+🔗 **Live Tableau Dashboard:** https://public.tableau.com/app/profile/ankur.maheshwari4307/viz/EVSalesDashboard_17670405963160/Dashboard2  
+📊 *Interactive dashboard for analyzing EV sales trends, state-wise performance, and vehicle category insights.*
 
 ## 📌 Project Overview
-This project performs an exploratory data analysis (EDA) on Electric Vehicle (EV) sales data across Indian states.  
-The objective is to understand EV adoption trends over time, identify leading states, and analyze vehicle-type preferences driving India’s transition toward electric mobility.
+This project presents a **comprehensive data analytics solution** for analyzing **Electric Vehicle (EV) sales trends in India**.  
+It covers the **entire analytics lifecycle**—from data cleaning and exploratory data analysis (EDA) to building an **interactive dashboard** for insight-driven decision-making.
 
-The analysis focuses on **descriptive insights and visualizations** to uncover meaningful patterns in EV sales.
+The project demonstrates **industry-relevant data analytics skills** using Python and visualization tools, making it suitable for **Data Analyst, Business Analyst, and Analytics Intern** roles.
 
 ---
 
-## 📊 Dataset Information
-- **Source:** Clean Mobility Shift (scraped and preprocessed)
-- **Time Period:** 2014 – 2024
-- **Granularity:** State-wise, vehicle-type-wise EV sales
-- **Format:** CSV
+## 🎯 Business Objectives
+- Analyze **EV adoption trends** across Indian states  
+- Identify **high-performing and emerging EV markets**
+- Understand **vehicle category and type preferences**
+- Deliver insights through a **dashboard-ready dataset**
+- Enable **data-driven policy and business decisions**
 
-### Key Columns:
+---
+
+## 📊 Dataset Overview
+- **Domain:** Electric Mobility / Automotive Analytics  
+- **Geography:** India (State-wise)
+- **Time Period:** 2014 – 2024
+- **Granularity:** State, Vehicle Category, Vehicle Type
+- **File Format:** CSV
+- **Data Status:** Cleaned and validated
+
+### Key Features
+- `Date`
 - `Year`
 - `Month_Name`
-- `Date`
 - `State`
 - `Vehicle_Class`
 - `Vehicle_Category`
@@ -26,39 +40,82 @@ The analysis focuses on **descriptive insights and visualizations** to uncover m
 
 ---
 
-## 🛠 Tools & Technologies
-- **Python**
-- **Pandas** – data manipulation
-- **Matplotlib & Seaborn** – data visualization
-- **Jupyter Notebook**
+## 🛠 Technical Skills & Tools
+**Programming & Libraries**
+- Python
+- Pandas
+- NumPy
+
+**Visualization**
+- Matplotlib
+- Seaborn
+- Dashboard Tool (Tableau / Power BI compatible dataset)
+
+**Analytics Techniques**
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Trend & Distribution Analysis
+- Data Storytelling
 
 ---
 
-## 🔍 Steps Performed
+## 🔍 Project Workflow
+### 1. Data Understanding
+- Inspected data structure, data types, and schema
+- Identified missing values and inconsistencies
 
-### 1️⃣ Data Cleaning
-- Converted incorrect data types (Year, Date, categorical columns)
-- Verified no missing values or duplicate records
-- Standardized categorical values where necessary
+### 2. Data Cleaning
+- Removed duplicates and invalid records
+- Standardized date and categorical fields
+- Validated EV sales quantity values
 
-### 2️⃣ Exploratory Data Analysis (EDA)
-- Distribution analysis of EV sales
-- Year-wise EV sales trend
-- Month-wise EV sales pattern
-- State-wise EV adoption comparison
-- Vehicle category analysis
-- Vehicle type analysis
-- Vehicle class analysis
+### 3. Exploratory Data Analysis (EDA)
+- State-wise EV sales comparison
+- Year-over-year and month-wise trend analysis
+- Vehicle category and vehicle type contribution analysis
+- Sales distribution and growth pattern analysis
+
+### 4. Dashboard Development
+- Designed KPIs for EV adoption monitoring
+- Built interactive charts and filters
+- Enabled geographical and trend-based exploration
 
 ---
 
-## 📈 Key Insights
+## 📈 Dashboard Features
+- EV Sales Quantity by State
+- Year-wise EV Adoption Trend
+- Vehicle Category Distribution
+- Vehicle Type Contribution Analysis
+- India Map Visualization for EV Sales
+
+The dashboard allows **interactive exploration** and supports **executive-level insights**.
+
+---
+
+## 📌 Key Insights
 - EV sales in India are **highly right-skewed**, with most state-month records showing low or zero sales.
 - EV adoption was minimal before 2018 and increased rapidly after 2021.
 - A small number of states (Delhi, Maharashtra, Karnataka, Tamil Nadu, Uttar Pradesh) contribute a large share of total EV sales.
 - **Two-wheelers** dominate EV adoption across most states due to affordability and daily usage.
 - **Three-wheelers** show strong adoption in states with high shared mobility demand.
 - EV sales show mild seasonality, with higher sales in specific months.
+
+---
+
+## 🚀 Impact & Value
+- Converts raw EV sales data into **actionable insights**
+- Demonstrates **real-world data analytics workflow**
+- Dashboard-ready dataset for **stakeholder presentations**
+- Strong portfolio project for analytics roles
+
+---
+
+## 📈 Use Cases
+- Market analysis for EV manufacturers
+- Government policy and EV adoption studies
+- Business intelligence and reporting
+- Portfolio demonstration for data analytics roles
 
 ---
 
@@ -69,10 +126,10 @@ These insights can help policymakers, manufacturers, and infrastructure planners
 
 ---
 
-## 🔮 Future Scope
-- Predict EV sales using machine learning models
-- Include charging infrastructure data for deeper insights
-- Perform city-level EV adoption analysis
-- Build interactive dashboards using Power BI or Tableau
+## 📬 Contact
+For questions, feedback, or collaboration opportunities, feel free to connect.
 
+---
+
+⭐ *If you find this project useful, consider giving it a star.*
 
